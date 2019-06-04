@@ -30,6 +30,6 @@ print(json.dumps(data, indent=2))
 #print( 'First group = ', data['groups'][0]['name'] )
 
 #Example 2: Print the names of each organization
-group_list = data['user_fields']
+group_list = data['tickets']
 for group in group_list:
-    print(group['title'])
+    print(group['subject'])
